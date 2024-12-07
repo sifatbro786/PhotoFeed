@@ -1,12 +1,3 @@
 {
-    "rewrites": [
-        {
-            "source": "/:locale/(.*)",
-            "destination": "/:locale/$2"
-        },
-        {
-            "source": "/",
-            "destination": "/en"
-        }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
